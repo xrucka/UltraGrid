@@ -8,9 +8,9 @@ License: 	GPL
 URL:		http://ultragrid.cz
 
 # replace this line with generated conflicts
-Provides:	ultragrid-proprietary-drivers-nightly
-#
-Provides:	ultragrid-proprietary-drivers-release-1.6
+#Provides:	ultragrid-proprietary-drivers-nightly
+Provides:	ultragrid-proprietary-drivers-release-1.5
+#Provides:	ultragrid-proprietary-drivers-release-1.6
 
 BuildRequires:	gcc-c++, make, automake, autoconf, coreutils
 BuildRequires: 	libX11-devel, glew-devel, libXext-devel, glibc, ncurses-devel, qt-devel
@@ -32,7 +32,7 @@ BuildRequires: freeglut-devel, libqt5-qtbase-devel
 #BuildArch:	x86_64
 
 Source0:	drivers.tar.gz
-Source1:	ultragrid-proprietary-drivers-rpmlintrc
+Source1:	ultragrid-proprietary-drivers-1.5-rpmlintrc
 #####################################################
 # > deltacast (videoMasterHD)
 #####################################################
